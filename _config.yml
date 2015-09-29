@@ -1,0 +1,82 @@
+name: fun time
+markdown: redcarpet
+highlighter: pygments # or rouge or null
+timezone: America/New_York
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+
+
+
+column-heading-one: Col_heading_1
+
+answer1-100: Statement_here 
+question1-100: What_is 
+
+answer1-200: Statement_here 
+question1-200: What_is
+
+answer1-300: Statement_here
+question1-300: What_is
+
+answer1-400: Statement_here
+question1-400: What_is
+
+########Column Heading Two#########
+column-heading-two: Col_heading_2
+
+answer2-100: Statement_here lalala
+question2-100: What_is
+
+answer2-200: Statement_here
+question2-200: What_is
+
+answer2-300: Statement_here
+question2-300: What_is
+
+answer2-400: Statement_here
+question2-400: What_is
+
+########Column Heading three#########
+column-heading-three: Col_heading_3
+
+answer3-100: Statement_here
+question3-100: What_is 
+
+answer3-200: Statement_here
+question3-200: What_is
+
+answer3-300: Statement_here
+question3-300: What_is
+
+answer3-400: Statement_here
+question3-400: What_is
+
+########Column Heading four#########
+column-heading-four: Col_heading_4
+
+answer4-100: Statement_here
+question4-100: What_is 
+
+answer4-200: Statement_here
+question4-200: What_is
+
+answer4-300: Statement_here
+question4-300: What_is
+
+answer4-400: Statement_here
+question4-400: What_is
+
+########Column Heading five#########
+column-heading-five: Col_heading_5
+
+answer5-100: Statement_here 
+question5-100: What_is 
+
+answer5-200: Statement_here
+question5-200: What_is
+
+answer5-300: Statement_here
+question5-300: What_is
+
+answer5-400: Statement_here
+question5-400: What_is
+

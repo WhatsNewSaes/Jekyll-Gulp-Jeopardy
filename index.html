@@ -1,0 +1,250 @@
+---
+layout: default
+title: Jeopardy!
+---
+<table id="game" cellspacing="5" cellpadding="0" class="hide">
+    <thead>
+        <tr>
+            <th>{{ site.column-heading-one }}</th>
+            <th>{{ site.column-heading-two }}</th>
+            <th>{{ site.column-heading-three }}</th>
+            <th>{{ site.column-heading-four }}</th>
+            <th>{{ site.column-heading-five }}</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td id="tq00" class="cell clean" onclick="prompt.show('q00', 100)">
+                <h3>100</h3>
+                <div class="hide">
+                    <div id="q00">{{ site.question1-100 }}</div>
+                    <div id="aq00">{{ site.answer1-100 }}</div>
+                </div>
+            </td>
+            <td id="tq01" class="cell clean" onclick="prompt.show('q01', 100)">
+                <h3>100</h3>
+                <div class="hide">
+                    <div id="q01">{{ site.question2-100 }}</div>
+                    <div id="aq01">{{ site.answer2-100 }}</div>
+                </div>
+            </td>
+            <td id="tq02" class="cell clean" onclick="prompt.show('q02', 100)">
+                <h3>100</h3>
+                <div class="hide">
+                    <div id="q02">{{ site.question3-100 }}</div>
+                    <div id="aq02">{{ site.answer3-100 }}</div>
+                </div>
+            </td>
+            <td id="tq03" class="cell clean" onclick="prompt.show('q03', 100)">
+                <h3>100</h3>
+                <div class="hide">
+                    <div id="q03">{{ site.question4-100 }}</div>
+                    <div id="aq03">{{ site.answer4-100 }}</div>
+                </div>
+            </td>
+            <td id="tq04" class="cell clean" onclick="prompt.show('q04', 100)">
+                <h3>100</h3>
+                <div class="hide">
+                    <div id="q04">{{ site.question5-100 }}</div>
+                    <div id="aq04">{{ site.answer5-100 }}</div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td id="tq10" class="cell clean" onclick="prompt.show('q10', 200)">
+                <h3>200</h3>
+                <div class="hide">
+                    <div id="q10">{{ site.question1-200 }}</div>
+                    <div id="aq10">{{ site.answer1-200 }}</div>
+                </div>
+            </td>
+            <td id="tq11" class="cell clean" onclick="prompt.show('q11', 200)">
+                <h3>200</h3>
+                <div class="hide">
+                    <div id="q11">{{ site.question2-200 }}
+                        <area>
+                    </div>
+                    <div id="aq11">{{ site.answer2-200 }}</div>
+                </div>
+            </td>
+            <td id="tq12" class="cell clean" onclick="prompt.show('q12', 200)">
+                <h3>200</h3>
+                <div class="hide">
+                    <div id="q12">{{ site.question3-200 }}</div>
+                    <div id="aq12">{{ site.answer3-200 }}</div>
+                </div>
+            </td>
+            <td id="tq13" class="cell clean" onclick="prompt.show('q13', 200)">
+                <h3>200</h3>
+                <div class="hide">
+                    <div id="q13">{{ site.question4-200 }}</div>
+                    <div id="aq13">{{ site.answer4-200 }}</div>
+                </div>
+            </td>
+            <td id="tq14" class="cell clean" onclick="prompt.show('q14', 200)">
+                <h3>200</h3>
+                <div class="hide">
+                    <div id="q14">{{ site.question5-200 }}</div>
+                    <div id="aq14">{{ site.answer5-200 }}</div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td id="tq20" class="cell clean" onclick="prompt.show('q20', 300)">
+                <h3>300</h3>
+                <div class="hide">
+                    <div id="q20">{{ site.question1-300 }}</div>
+                    <div id="aq20">{{ site.answer1-300 }}</div>
+                </div>
+            </td>
+            <td id="tq21" class="cell clean" onclick="prompt.show('q21', 300)">
+                <h3>300</h3>
+                <div class="hide">
+                    <div id="q21">{{ site.question2-300 }}</div>
+                    <div id="aq21">{{ site.answer2-300 }}
+                    </div>
+                </div>
+            </td>
+            <td id="tq22" class="cell clean" onclick="prompt.show('q22', 300)">
+                <h3>300</h3>
+                <div class="hide">
+                    <div id="q22">{{ site.question3-300 }}</div>
+                    <div id="aq22">{{ site.answer3-300 }}</div>
+                </div>
+            </td>
+            <td id="tq23" class="cell clean" onclick="prompt.show('q23', 300)">
+                <h3>300</h3>
+                <div class="hide">
+                    <div id="q23">{{ site.question4-300 }}</div>
+                    <div id="aq23">{{ site.answer4-300 }}</div>
+                </div>
+            </td>
+            <td id="tq24" class="cell clean" onclick="prompt.show('q24', 300)">
+                <h3>300</h3>
+                <div class="hide">
+                    <div id="q24">{{ site.question5-300 }}</div>
+                    <div id="aq24">{{ site.answer5-300 }}</div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td id="tq30" class="cell clean" onclick="prompt.show('q30', 400)">
+                <h3>400</h3>
+                <div class="hide">
+                    <div id="q30">{{ site.question1-400 }}</div>
+                    <div id="aq30">{{ site.answer1-400 }}</div>
+                </div>
+            </td>
+            <td id="tq31" class="cell clean" onclick="prompt.show('q31', 400)">
+                <h3>400</h3>
+                <div class="hide">
+                    <div id="q31">{{ site.question2-400 }}</div>
+                    <div id="aq31">{{ site.answer2-400 }}</div>
+                </div>
+            </td>
+            <td id="tq32" class="cell clean" onclick="prompt.show('q32', 400)">
+                <h3>400</h3>
+                <div class="hide">
+                    <div id="q32">{{ site.question3-400 }}</div>
+                    <div id="aq32">{{ site.answer3-400 }}</div>
+                </div>
+            </td>
+            <td id="tq33" class="cell clean" onclick="prompt.show('q33', 400)">
+                <h3>400</h3>
+                <div class="hide">
+                    <div id="q33">{{ site.question4-400 }}</div>
+                    <div id="aq33">{{ site.answer4-400 }}</div>
+                </div>
+            </td>
+            <td id="tq34" class="cell clean" onclick="prompt.show('q34', 400)">
+                <h3>400</h3>
+                <div class="hide">
+                    <div id="q34">{{ site.question5-400 }}</div>
+                    <div id="aq34">{{ site.answer5-400 }}</div>
+                </div>
+            </td>
+        </tr>
+        <!--  <tr>
+
+
+            <td id="tq40" class="cell clean" onclick="prompt.show('q40', 500)">
+              <h3>500</h3>
+              <div class="hide">
+                <div id="q40">What is Elohim</div>
+                <div id="aq40">This Hebrew name for God makes reference to the Trinity as it is both singular and plural.</div>
+              </div>
+            </td>
+
+
+
+            <td id="tq41" class="cell clean" onclick="prompt.show('q41', 500)">
+              <h3>500</h3>
+              <div class="hide">
+                <div id="q41">Who are Moses and Elijah</div>
+                <div id="aq41">These two men appeared with Jesus on the Mount of Transfiguration.</div>
+              </div>
+            </td>
+
+
+
+            <td id="tq42" class="cell clean" onclick="prompt.show('q42', 500)">
+              <h3>500</h3>
+              <div class="hide">
+                <div id="q42">What is false</div>
+                <div id="aq42">The Holy Spirit dwells in every human on earth.</div>
+              </div>
+            </td>
+
+
+
+            <td id="tq43" class="cell clean" onclick="prompt.show('q43', 500)">
+              <h3>500</h3>
+              <div class="hide">
+                <div id="q43">Ask Teacher</div>
+                <div id="aq43">Draw the Trinity Triangle from previous lessons</div>
+              </div>
+            </td>
+
+
+
+            <td id="tq44" class="cell clean" onclick="prompt.show('q44', 500)">
+              <h3>500</h3>
+              <div class="hide">
+                <div id="q44">What is Deuteronomy 6:4</div>
+                <div id="aq44">“Hear, O Israel, the LORD is our God, the LORD is one!”</div>
+              </div>
+            </td>
+
+
+      </tr>
+ -->
+    </tbody>
+</table>
+<div id="options">
+    <h1>HTML Jeopardy</h1>
+    <label>Number of Teams</label>
+    <select name="teams" id="teams">
+        <option value="1">1 team</option>
+        <option value="2">2 teams</option>
+        <option value="3">3 teams</option>
+        <option value="4">4 teams</option>
+        <!--     <option value="5">5 teams</option>
+    <option value="6">6 teams</option>
+    <option value="7">7 teams</option>
+    <option value="8">8 teams</option>
+    <option value="9">9 teams</option>
+    <option value="10">10 teams</option>
+    <option value="11">11 teams</option>
+    <option value="12">12 teams</option> -->
+    </select>
+    <input class="submit" type="button" id="submit" value="Start" onclick="game.init()" />
+    <p align="center">Press F11 for full-screen mode</p>
+    <div class="clear"></div>
+</div>
+<div id="stats">
+</div>
+<div id="prompt">
+    <h2 id="answer"></h2>
+    <p><span id="correct-response"><a href="javascript:prompt.showQuestion()">Correct Response</a> &nbsp;&nbsp;&nbsp;&nbsp; </span><a href="javascript:prompt.hide()">Continue</a></p>
+    <h2 id="question"></h2>
+</div>
