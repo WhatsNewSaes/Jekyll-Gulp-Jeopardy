@@ -12,6 +12,8 @@ var htmlmin = require('gulp-htmlmin');
 var uglify = require('gulp-uglify');
 
 // var imagemin = require('gulp-imagemin');
+var ghPages = require('gulp-gh-pages');
+
 
 
 var messages = {
@@ -91,6 +93,14 @@ gulp.task('sass', function() {
         }))
         .pipe(gulp.dest('css'));
 });
+
+// ghpages: deploys _site directory to github pages branch
+// * Note * see 'deploy' task below
+gulp.task('ghpages', function() {
+  return gulp.src('_site/**/*')
+    .pipe(ghPages());
+});
+
 
 // Watch scss files for changes & recompile
 // Watch html/md files, run jekyll & reload BrowserSync
