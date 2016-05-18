@@ -1,15 +1,27 @@
----
-layout: default
-title: Jeopardy!
----
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Jeopardy!</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/main.css">
+        <script language="javascript" type="text/javascript" src="js/sitemodules.js"></script>
+
+    </head>
+
+    <body>
+
 <table id="game" cellspacing="5" cellpadding="0" class="hide">
     <thead>
         <tr>
-            <th>{{ site.column-heading-one }}</th>
-            <th>{{ site.column-heading-two }}</th>
-            <th>{{ site.column-heading-three }}</th>
-            <th>{{ site.column-heading-four }}</th>
-            <th>{{ site.column-heading-five }}</th>
+            <th>Jonah</th>
+            <th>Simon & the sinful woman</th>
+            <th>The Rich man and Lazarus</th>
+            <th>King Solomon</th>
+            <th>Jesus & the Samaritan Woman</th>
         </tr>
     </thead>
     <tbody>
@@ -17,36 +29,36 @@ title: Jeopardy!
             <td id="tq00" class="cell clean" onclick="prompt.show('q00', 100)">
                 <h3>100</h3>
                 <div class="hide">
-                    <div id="q00">{{ site.question1-100 }}</div>
-                    <div id="aq00">{{ site.answer1-100 }}</div>
+                    <div id="q00">Who is the Lord</div>
+                    <div id="aq00">The one who told Jonah to go preach repentence to the Ninevites.</div>
                 </div>
             </td>
             <td id="tq01" class="cell clean" onclick="prompt.show('q01', 100)">
                 <h3>100</h3>
                 <div class="hide">
-                    <div id="q01">{{ site.question2-100 }}</div>
-                    <div id="aq01">{{ site.answer2-100 }}</div>
+                    <div id="q01">What is a pharisee</div>
+                    <div id="aq01">This was Simon's Job / Title</div>
                 </div>
             </td>
             <td id="tq02" class="cell clean" onclick="prompt.show('q02', 100)">
                 <h3>100</h3>
                 <div class="hide">
-                    <div id="q02">{{ site.question3-100 }}</div>
-                    <div id="aq02">{{ site.answer3-100 }}</div>
+                    <div id="q02">Whatever fell form the rich man's table.</div>
+                    <div id="aq02">What lazarus desired to be fed with form the rich man's table</div>
                 </div>
             </td>
             <td id="tq03" class="cell clean" onclick="prompt.show('q03', 100)">
                 <h3>100</h3>
                 <div class="hide">
-                    <div id="q03">{{ site.question4-100 }}</div>
-                    <div id="aq03">{{ site.answer4-100 }}</div>
+                    <div id="q03">Who is the wiset man who ever lived.</div>
+                    <div id="aq03">King solomon was the richest man in all the world. He was also this</div>
                 </div>
             </td>
             <td id="tq04" class="cell clean" onclick="prompt.show('q04', 100)">
                 <h3>100</h3>
                 <div class="hide">
-                    <div id="q04">{{ site.question5-100 }}</div>
-                    <div id="aq04">{{ site.answer5-100 }}</div>
+                    <div id="q04">What is that he was a Jew and she was a Samaritan</div>
+                    <div id="aq04">This is why the Samaritan woman was shocked that jesus asked her for a drink of water</div>
                 </div>
             </td>
         </tr>
@@ -54,38 +66,38 @@ title: Jeopardy!
             <td id="tq10" class="cell clean" onclick="prompt.show('q10', 200)">
                 <h3>200</h3>
                 <div class="hide">
-                    <div id="q10">{{ site.question1-200 }}</div>
-                    <div id="aq10">{{ site.answer1-200 }}</div>
+                    <div id="q10">What is Ninevah?</div>
+                    <div id="aq10">This city would be destroyed if they did not repent of their wickedness</div>
                 </div>
             </td>
             <td id="tq11" class="cell clean" onclick="prompt.show('q11', 200)">
                 <h3>200</h3>
                 <div class="hide">
-                    <div id="q11">{{ site.question2-200 }}
+                    <div id="q11">What are her tears, hair, perfume
                         <area>
                     </div>
-                    <div id="aq11">{{ site.answer2-200 }}</div>
+                    <div id="aq11">The woman cleaned jesus's feet with these things</div>
                 </div>
             </td>
             <td id="tq12" class="cell clean" onclick="prompt.show('q12', 200)">
                 <h3>200</h3>
                 <div class="hide">
-                    <div id="q12">{{ site.question3-200 }}</div>
-                    <div id="aq12">{{ site.answer3-200 }}</div>
+                    <div id="q12">What is to send Lazarus to dip the end of his finger in water and cool my tongue</div>
+                    <div id="aq12">The rich man's first request of Father Abraham while he was in hell</div>
                 </div>
             </td>
             <td id="tq13" class="cell clean" onclick="prompt.show('q13', 200)">
                 <h3>200</h3>
                 <div class="hide">
-                    <div id="q13">{{ site.question4-200 }}</div>
-                    <div id="aq13">{{ site.answer4-200 }}</div>
+                    <div id="q13">What is the book of Ecclesiastes</div>
+                    <div id="aq13">This is the Book King Solomon records his wisdom, mistakes and achievements.</div>
                 </div>
             </td>
             <td id="tq14" class="cell clean" onclick="prompt.show('q14', 200)">
                 <h3>200</h3>
                 <div class="hide">
-                    <div id="q14">{{ site.question5-200 }}</div>
-                    <div id="aq14">{{ site.answer5-200 }}</div>
+                    <div id="q14">What is went into town and told her friends about Jesus</div>
+                    <div id="aq14">After hearing the good news of the Gospel the Samaritan woman did this</div>
                 </div>
             </td>
         </tr>
@@ -93,37 +105,37 @@ title: Jeopardy!
             <td id="tq20" class="cell clean" onclick="prompt.show('q20', 300)">
                 <h3>300</h3>
                 <div class="hide">
-                    <div id="q20">{{ site.question1-300 }}</div>
-                    <div id="aq20">{{ site.answer1-300 }}</div>
+                    <div id="q20">What is casting lots</div>
+                    <div id="aq20">This is how the men on the boat determined who was the cause of the storm</div>
                 </div>
             </td>
             <td id="tq21" class="cell clean" onclick="prompt.show('q21', 300)">
                 <h3>300</h3>
                 <div class="hide">
-                    <div id="q21">{{ site.question2-300 }}</div>
-                    <div id="aq21">{{ site.answer2-300 }}
+                    <div id="q21">kiss of greeting & annointing head with olive oil</div>
+                    <div id="aq21">Simon refused to offer two customary greetings to Jesus
                     </div>
                 </div>
             </td>
             <td id="tq22" class="cell clean" onclick="prompt.show('q22', 300)">
                 <h3>300</h3>
                 <div class="hide">
-                    <div id="q22">{{ site.question3-300 }}</div>
-                    <div id="aq22">{{ site.answer3-300 }}</div>
+                    <div id="q22">The pharisees thought that if you were rich you had God's blessing and favor. They also thought that if you were poor or sick you were sinful and did not have God's favor</div>
+                    <div id="aq22">The reasons why this parable was hard for the parisees to believe</div>
                 </div>
             </td>
             <td id="tq23" class="cell clean" onclick="prompt.show('q23', 300)">
                 <h3>300</h3>
                 <div class="hide">
-                    <div id="q23">{{ site.question4-300 }}</div>
-                    <div id="aq23">{{ site.answer4-300 }}</div>
+                    <div id="q23">What is wisdom</div>
+                    <div id="aq23">God offered Solomon anything he wanted and he chose this</div>
                 </div>
             </td>
             <td id="tq24" class="cell clean" onclick="prompt.show('q24', 300)">
                 <h3>300</h3>
                 <div class="hide">
-                    <div id="q24">{{ site.question5-300 }}</div>
-                    <div id="aq24">{{ site.answer5-300 }}</div>
+                    <div id="q24">What is eternal life</div>
+                    <div id="aq24">This is what Jesus meant by "living water"</div>
                 </div>
             </td>
         </tr>
@@ -131,36 +143,36 @@ title: Jeopardy!
             <td id="tq30" class="cell clean" onclick="prompt.show('q30', 400)">
                 <h3>400</h3>
                 <div class="hide">
-                    <div id="q30">{{ site.question1-400 }}</div>
-                    <div id="aq30">{{ site.answer1-400 }}</div>
+                    <div id="q30">What is Tarshish?</div>
+                    <div id="aq30">This is the city that Jonah fled to instead of obeying God and going to Ninevah</div>
                 </div>
             </td>
             <td id="tq31" class="cell clean" onclick="prompt.show('q31', 400)">
                 <h3>400</h3>
                 <div class="hide">
-                    <div id="q31">{{ site.question2-400 }}</div>
-                    <div id="aq31">{{ site.answer2-400 }}</div>
+                    <div id="q31">Money lent to two people (50 denari & 500 denari) Both were forgiven, who loved forgiveness the most?</div>
+                    <div id="aq31">Jesus gives this illustration while at dinner regarding forgiveness.</div>
                 </div>
             </td>
             <td id="tq32" class="cell clean" onclick="prompt.show('q32', 400)">
                 <h3>400</h3>
                 <div class="hide">
-                    <div id="q32">{{ site.question3-400 }}</div>
-                    <div id="aq32">{{ site.answer3-400 }}</div>
+                    <div id="q32">They have Moses and the Prophets; let them hear them. (If you do not have faith, not even someone coming back from the dead will convince a hardened heart)</div>
+                    <div id="aq32">Father Abraham's response to the rich man after he asks Lazarus to go back from the dead and warn his family of hell.</div>
                 </div>
             </td>
             <td id="tq33" class="cell clean" onclick="prompt.show('q33', 400)">
                 <h3>400</h3>
                 <div class="hide">
-                    <div id="q33">{{ site.question4-400 }}</div>
-                    <div id="aq33">{{ site.answer4-400 }}</div>
+                    <div id="q33">All is vanity and chasing after the wind. Fear the lord & keep his commandments; everyone will eventually die and all the deeds of man are vanity (useless) without God.</div>
+                    <div id="aq33">This sums up Solomon's wisdom and what he learned throughout his life</div>
                 </div>
             </td>
             <td id="tq34" class="cell clean" onclick="prompt.show('q34', 400)">
                 <h3>400</h3>
                 <div class="hide">
-                    <div id="q34">{{ site.question5-400 }}</div>
-                    <div id="aq34">{{ site.answer5-400 }}</div>
+                    <div id="q34">What are Spirit and Truth</div>
+                    <div id="aq34">Jesus explains that a time is coming when true worshipers will worship in these two ways</div>
                 </div>
             </td>
         </tr>
@@ -248,3 +260,14 @@ title: Jeopardy!
     <p><span id="correct-response"><a href="javascript:prompt.showQuestion()">Correct Response</a> &nbsp;&nbsp;&nbsp;&nbsp; </span><a href="javascript:prompt.hide()">Continue</a></p>
     <h2 id="question"></h2>
 </div>
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+</body>
+</html>
+
